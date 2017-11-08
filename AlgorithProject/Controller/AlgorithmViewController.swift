@@ -38,7 +38,7 @@ public class AlgorithmViewController: UIViewController
         
         for step in algorithmSteps
         {
-            let bullet :String = ""
+            let bullet :String = "$"
             let formattedStep :String = "\n\(bullet) \(step)"
             let attributedStringStep: NSMutableAttributedString = NSMutableAttributedString(string: formattedStep)
             let paragraphStyle = createParagraphStyle()
@@ -73,8 +73,8 @@ public class AlgorithmViewController: UIViewController
         // Do any additional setup after loading the view.
     }
     
-    override func didRecieveMemoryWarning()
+    override public func didReceiveMemoryWarning()
     {
-      super.didRecieveMemoryWarning()
+      super.didReceiveMemoryWarning()
     }
 }
