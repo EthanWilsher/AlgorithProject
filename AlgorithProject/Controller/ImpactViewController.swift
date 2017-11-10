@@ -8,6 +8,7 @@
 
 import UIKit
 
-class ImpactViewController: NSObject {
+public class ImpactViewController: UIViewController
+{
 
 }
