@@ -95,13 +95,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="iIM-EZ-UEY">
-                                <rect key="frame" x="75" y="329" width="225" height="161"/>
+                                <rect key="frame" x="65" y="486" width="225" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeP-hK-gOz">
-                                <rect key="frame" x="49" y="206" width="277" height="115"/>
+                                <rect key="frame" x="49" y="363" width="277" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The plan for our app is to gather peoples salary data and comparing them. This will inform of the inequality that women face in the work place.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The reason we need to address this problem is because women are still being treated unfairly in todays world." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NkD-PO-2Jm">
+                                <rect key="frame" x="16" y="10" width="254" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Survey" translatesAutoresizingMaskIntoConstraints="NO" id="f0P-wt-EWP">
+                                <rect key="frame" x="16" y="202" width="223" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlQ-4y-wBb">
+                                <rect key="frame" x="131" y="52" width="207" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">I am personally connected to this because I have friends and family that I care for that are women and seeing them being treated unfair is wrong.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -110,6 +129,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Lyz-zT-aMb"/>
                     </view>
+                    <connections>
+                        <outlet property="ProgramConnectionText" destination="BlQ-4y-wBb" id="M4D-o2-Bvq"/>
+                        <outlet property="ProgramPicture" destination="f0P-wt-EWP" id="E26-tC-2aX"/>
+                        <outlet property="ProgramProblemText" destination="NkD-PO-2Jm" id="cop-ar-vsp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CwD-AA-CYQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -117,6 +141,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Survey" width="1024" height="768"/>
         <image name="download" width="300" height="168"/>
         <image name="swiftSample" width="1248" height="1244"/>
     </resources>
