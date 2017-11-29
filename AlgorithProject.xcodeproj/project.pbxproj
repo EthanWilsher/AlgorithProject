@@ -19,8 +19,9 @@
 		39B8AEC11FB3553400A583AA /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8AEC01FB3553400A583AA /* DataViewController.swift */; };
 		39B8AEC31FB3554C00A583AA /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8AEC21FB3554C00A583AA /* AlgorithmViewController.swift */; };
 		39B8AEC51FB3556400A583AA /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8AEC41FB3556400A583AA /* ProgrammingViewController.swift */; };
-		39B8AEC71FB3557D00A583AA /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8AEC61FB3557D00A583AA /* InternetViewController.swift */; };
 		39B8AEC91FB355AA00A583AA /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8AEC81FB355AA00A583AA /* ImpactViewController.swift */; };
+		39E56ED01FCF0003001C442B /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E56ECF1FCF0003001C442B /* InternetDetailViewController.swift */; };
+		39E56ED21FCF002E001C442B /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E56ED11FCF002E001C442B /* InternetMasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +39,9 @@
 		39B8AEC01FB3553400A583AA /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		39B8AEC21FB3554C00A583AA /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
 		39B8AEC41FB3556400A583AA /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
-		39B8AEC61FB3557D00A583AA /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
 		39B8AEC81FB355AA00A583AA /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
+		39E56ECF1FCF0003001C442B /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		39E56ED11FCF002E001C442B /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +92,8 @@
 				39B8AEC01FB3553400A583AA /* DataViewController.swift */,
 				39B8AEC21FB3554C00A583AA /* AlgorithmViewController.swift */,
 				39B8AEC41FB3556400A583AA /* ProgrammingViewController.swift */,
-				39B8AEC61FB3557D00A583AA /* InternetViewController.swift */,
+				39E56ECF1FCF0003001C442B /* InternetDetailViewController.swift */,
+				39E56ED11FCF002E001C442B /* InternetMasterViewController.swift */,
 				39B8AEC81FB355AA00A583AA /* ImpactViewController.swift */,
 			);
 			path = Controller;
@@ -199,13 +202,14 @@
 				39B8AEA81FB3540400A583AA /* ViewController.swift in Sources */,
 				39B8AEC91FB355AA00A583AA /* ImpactViewController.swift in Sources */,
 				39B8AEC51FB3556400A583AA /* ProgrammingViewController.swift in Sources */,
+				39E56ED01FCF0003001C442B /* InternetDetailViewController.swift in Sources */,
 				39B8AEA61FB3540400A583AA /* AppDelegate.swift in Sources */,
 				39B8AEC11FB3553400A583AA /* DataViewController.swift in Sources */,
 				39B8AEBD1FB354FA00A583AA /* CreativityViewController.swift in Sources */,
 				39934CCA1FC329D300AA842E /* Sinkable.swift in Sources */,
 				39B8AEC31FB3554C00A583AA /* AlgorithmViewController.swift in Sources */,
 				39B8AEBF1FB3551C00A583AA /* AbstractionViewController.swift in Sources */,
-				39B8AEC71FB3557D00A583AA /* InternetViewController.swift in Sources */,
+				39E56ED21FCF002E001C442B /* InternetMasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
