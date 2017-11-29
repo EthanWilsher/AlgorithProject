@@ -22,6 +22,7 @@
 		39B8AEC91FB355AA00A583AA /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8AEC81FB355AA00A583AA /* ImpactViewController.swift */; };
 		39E56ED01FCF0003001C442B /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E56ECF1FCF0003001C442B /* InternetDetailViewController.swift */; };
 		39E56ED21FCF002E001C442B /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E56ED11FCF002E001C442B /* InternetMasterViewController.swift */; };
+		39E56ED51FCF0B2D001C442B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E56ED41FCF0B2D001C442B /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		39B8AEC81FB355AA00A583AA /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
 		39E56ECF1FCF0003001C442B /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		39E56ED11FCF002E001C442B /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		39E56ED41FCF0B2D001C442B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E56ED51FCF0B2D001C442B /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +63,7 @@
 			children = (
 				39B8AEA41FB3540400A583AA /* AlgorithProject */,
 				39B8AEA31FB3540400A583AA /* Products */,
+				39E56ED31FCF0B2D001C442B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +128,14 @@
 				39934CCB1FC32B2500AA842E /* sinkDebug.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		39E56ED31FCF0B2D001C442B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39E56ED41FCF0B2D001C442B /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

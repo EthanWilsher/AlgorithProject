@@ -8,6 +8,19 @@
 
 import UIKit
 
-class InternetDetailViewController: NSObject {
+class InternetDetailViewController: UIViewController
+{
+    
+    
+    override public func viewDidLoad()
+    {
+        super.viewDidLoad()
+        setup()
+    }
+    
+    private func setup() -> Void
+    {
+        
+    }
 
 }

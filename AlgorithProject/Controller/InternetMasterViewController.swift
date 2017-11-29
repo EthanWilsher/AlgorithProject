@@ -55,7 +55,7 @@ public class InternetMasterViewController: UITableViewController
         return 1
     }
     
-    override  public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) ->
+    override  public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return internetTopics.count
     }
