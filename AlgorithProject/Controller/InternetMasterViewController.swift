@@ -75,6 +75,32 @@ public class InternetMasterViewController: UITableViewController
         return cell
     }
     
+    override public func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier! == "showDetail"
+        {
+            let urlString = addresses[indexPath.row]
+            let pageText : String
+            
+            if indexPath.row == 0
+            {
+                //TODO: replace with all my definitions
+                pageText = "All the definitions i wrote"
+            }
+            else
+            {
+                pageText = internetTopics[indexPath.row]
+                
+            }
+            let controller = segue.destination as! InternetDetailViewController
+            {
+                controller.detailAddress = urlString
+                controller.detailText = pageText
+                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                controller.navigationItem.leftItemsSupplementBackButton = true
+            }
+        }
+    }
     
     
     
