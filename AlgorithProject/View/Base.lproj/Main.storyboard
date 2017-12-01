@@ -370,6 +370,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Oao-Le-Zwa"/>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="LSx-io-UwX" id="0aF-G2-hxC"/>
+                        <outlet property="webViewer" destination="Wz0-nI-Ohm" id="ChP-Mk-bs2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ev-Jw-BGw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
