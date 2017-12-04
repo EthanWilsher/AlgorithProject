@@ -402,7 +402,7 @@
                             <outlet property="delegate" destination="FbM-ni-MLC" id="8fp-70-0gE"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="ucl-Gx-xxM"/>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="ucl-Gx-xxM" customClass="UI"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IKA-MB-BMv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
