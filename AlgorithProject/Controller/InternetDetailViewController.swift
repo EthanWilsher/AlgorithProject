@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WebKit
 
 public class InternetDetailViewController: UIViewController
 {

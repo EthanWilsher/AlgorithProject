@@ -95,12 +95,12 @@ public class InternetMasterViewController: UITableViewController
                 
                 }
                 let controller = segue.destination as! InternetDetailViewController
-                {
+                
                 controller.detailAddress = urlString
                 controller.detailText = pageText
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true
-                }
+                
             
             }
             

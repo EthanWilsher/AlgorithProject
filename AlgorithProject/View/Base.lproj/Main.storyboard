@@ -377,7 +377,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ev-Jw-BGw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-354.39999999999998" y="981.85907046476768"/>
+            <point key="canvasLocation" x="2228" y="496"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="9Iv-wY-ebc">
@@ -388,13 +388,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="cDi-2V-gVf">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier=" reuseIdentifier" id="cDi-2V-gVf" userLabel="reuseIdentifier">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cDi-2V-gVf" id="QkO-LS-ZIQ">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="flA-0X-9GG" kind="showDetail" identifier="Show Detail" id="bw6-7G-Whe"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -448,4 +451,7 @@
         <image name="download" width="300" height="168"/>
         <image name="swiftSample" width="1248" height="1244"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="bw6-7G-Whe"/>
+    </inferredMetricsTieBreakers>
 </document>

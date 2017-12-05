@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		39934CCA1FC329D300AA842E /* Sinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934CC91FC329D300AA842E /* Sinkable.swift */; };
 		39934CCC1FC32B2500AA842E /* sinkDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934CCB1FC32B2500AA842E /* sinkDebug.swift */; };
+		39981E781FD6EFBA004A87B2 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39981E771FD6EFBA004A87B2 /* DrawingView.swift */; };
 		39B8AEA61FB3540400A583AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8AEA51FB3540400A583AA /* AppDelegate.swift */; };
 		39B8AEA81FB3540400A583AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8AEA71FB3540400A583AA /* ViewController.swift */; };
 		39B8AEAB1FB3540400A583AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B8AEA91FB3540400A583AA /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		39934CC91FC329D300AA842E /* Sinkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sinkable.swift; sourceTree = "<group>"; };
 		39934CCB1FC32B2500AA842E /* sinkDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sinkDebug.swift; sourceTree = "<group>"; };
+		39981E771FD6EFBA004A87B2 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		39B8AEA21FB3540400A583AA /* AlgorithProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B8AEA51FB3540400A583AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39B8AEA71FB3540400A583AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				39B8AEA91FB3540400A583AA /* Main.storyboard */,
 				39B8AEAE1FB3540400A583AA /* LaunchScreen.storyboard */,
+				39981E771FD6EFBA004A87B2 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				39B8AEC91FB355AA00A583AA /* ImpactViewController.swift in Sources */,
 				39B8AEC51FB3556400A583AA /* ProgrammingViewController.swift in Sources */,
 				39E56ED01FCF0003001C442B /* InternetDetailViewController.swift in Sources */,
+				39981E781FD6EFBA004A87B2 /* DrawingView.swift in Sources */,
 				39B8AEA61FB3540400A583AA /* AppDelegate.swift in Sources */,
 				39B8AEC11FB3553400A583AA /* DataViewController.swift in Sources */,
 				39B8AEBD1FB354FA00A583AA /* CreativityViewController.swift in Sources */,
