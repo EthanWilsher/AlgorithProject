@@ -81,7 +81,7 @@ public class CreativityViewController: UICollectionViewController, UICollectionV
     }
     override public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
-        let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for indexPath) as! ArtCell
+        let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
         
         artCell.backgroundColor = .blue
         artCell.imageView.image = artSelection[indexPath.row]
