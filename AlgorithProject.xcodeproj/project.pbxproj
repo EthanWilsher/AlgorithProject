@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		394BFF0B1FD99C6A00C19CD1 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BFF0A1FD99C6A00C19CD1 /* ArtCell.swift */; };
 		39934CCA1FC329D300AA842E /* Sinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934CC91FC329D300AA842E /* Sinkable.swift */; };
 		39934CCC1FC32B2500AA842E /* sinkDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934CCB1FC32B2500AA842E /* sinkDebug.swift */; };
 		39981E781FD6EFBA004A87B2 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39981E771FD6EFBA004A87B2 /* DrawingView.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		394BFF0A1FD99C6A00C19CD1 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		39934CC91FC329D300AA842E /* Sinkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sinkable.swift; sourceTree = "<group>"; };
 		39934CCB1FC32B2500AA842E /* sinkDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sinkDebug.swift; sourceTree = "<group>"; };
 		39981E771FD6EFBA004A87B2 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				39B8AEA91FB3540400A583AA /* Main.storyboard */,
 				39B8AEAE1FB3540400A583AA /* LaunchScreen.storyboard */,
 				39981E771FD6EFBA004A87B2 /* DrawingView.swift */,
+				394BFF0A1FD99C6A00C19CD1 /* ArtCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39934CCC1FC32B2500AA842E /* sinkDebug.swift in Sources */,
+				394BFF0B1FD99C6A00C19CD1 /* ArtCell.swift in Sources */,
 				39B8AEA81FB3540400A583AA /* ViewController.swift in Sources */,
 				39B8AEC91FB355AA00A583AA /* ImpactViewController.swift in Sources */,
 				39B8AEC51FB3556400A583AA /* ProgrammingViewController.swift in Sources */,
