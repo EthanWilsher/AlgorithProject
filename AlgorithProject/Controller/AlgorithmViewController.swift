@@ -54,6 +54,7 @@ public class AlgorithmViewController: UIViewController
         
     }
     
+    
     private func createParagraphStyle() -> NSParagraphStyle
     {
         let paragraphStyle: NSMutableParagraphStyle = NSMutableParagraphStyle()

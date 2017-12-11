@@ -45,6 +45,18 @@ class DrawingView: UIView {
     
     return stickFigure
     }
+    private func drawWithFriends() -> Void
+    {
+        let pic = UIBezierPath()
+        UIColor.black.setFill()
+        
+        pic.move(to: CGPoint(x:60, y:240))
+        pic.addLine(to: CGPoint(x:110, y:310))
+        pic.addLine(to: CGPoint(x:60, y:360))
+        pic.close()
+        pic.fill()
+        
+    }
     
     private func drawTurtle() -> Void
     {
