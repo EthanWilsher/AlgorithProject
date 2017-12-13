@@ -13,7 +13,7 @@
         <scene sceneID="hIg-XK-kb8">
             <objects>
                 <viewController id="inJ-1I-OZn" customClass="ProgrammingViewController" customModule="AlgorithProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tJ4-Jn-1Xz">
+                    <view key="view" contentMode="scaleToFill" id="tJ4-Jn-1Xz" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
