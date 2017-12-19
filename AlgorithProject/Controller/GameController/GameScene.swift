@@ -58,6 +58,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
 
     private func setupPlayer() -> Void
     {
+        player.position = CGPoint(x:self.frame.mix)
     
     }
     
@@ -68,6 +69,16 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         {
             //Closure parameters
             node, stop in
+            let invader = node as! SKSpriteNode
+            let invaderHalfWidth = invader.size.width / 2
+            invader.position.x -= CGFloat(self.invaderSpeed)
+            if(invader.position.x > self.rightBounds - invaderHalfWidth || invader.position.x <
+            self.leftBounds + invaderHalfWidth)
+            {
+                changeDirection = true
+            }
+            
+            
             
         }
         
@@ -86,21 +97,53 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     private func invokeInvaderFire() -> Void
     {
+        let fireBullet = SKAction.run()
+        {
+            self.fireInvaderBullet()
+        }
+        
+        let waitToFireInvaderBullet = SKAction.wait(forDuration: 2.5)
+        let invaderFire = SKAction.sequence([fireBullet,waitToFireInvaderBullet])
+        let repeatForeverAction = SKAction.repeatForever(invaderFire)
+        run(repeatForeverAction)
         
     }
     
     func fireInvaderBullet() -> Void
     {
-       
+       if(invadersThatCanFire.isEmpty)
+       {
+        gameLevel += 1
+        levelComplete()
+        }
+        if let randomInvader = invadersThatCanFire.randomElement()
+        {
+            randomInvader.fireBullet(scene: self)
+        }
     }
     
     func newGame() -> Void
     {
-        
+        let newGameScene = StartScene(size: size)
+        newGameScene.scaleMode = scaleMode
+        let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
+        view?.presentScene(newGameScene,transition: transitionType)
     }
     
     func levelComplete() -> Void
     {
+        if(gameLevel <= maxLevels)
+        {
+            let levelCompleteScene = LevelCompleteScene(size:  size)
+            levelCompleteScene.scaleMode = scaleMode
+            let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
+            view?.presentScene(levelCompleteScene,transition: transitionType)
+        }
+        else
+        {
+            gameLevel = 1
+            newGame()
+        }
         
     }
     
@@ -113,6 +156,12 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         self.physicsWorld.contactDelegate = self
         self.physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
         self.physicsBody?.categoryBitMask = CollisionCategories.EdgeBody
+        
+        let starField = SKEmitterNode(fileNamed: "StarField")
+        starField?.position = CGPoint(x: size.width / 2,y: size.height / 2)
+        starField?.zPosition = -1000
+        addChild(starField!)
+        
         
         backgroundColor = UIColor.blue
         rightBounds = self.size.width - 30
@@ -136,7 +185,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     override public func didSimulatePhysics()
     {
-        
+        player.physicsBody?.velocity = CGVector(dx: accelerationX * 600, dy: 0)
     }
 
     //MARK:- Handle Motion
