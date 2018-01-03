@@ -91,6 +91,7 @@
 			children = (
 				39CD0CB91FE181F400D351E4 /* GameScene.swift */,
 				39CD0CBA1FE181F400D351E4 /* LevelCompleteScene.swift */,
+				39B8AEA71FB3540400A583AA /* ViewController.swift */,
 				39CD0CB81FE181F400D351E4 /* StartScene.swift */,
 				39A58B881FE968B0007BD95C /* DeathScene.swift */,
 			);
@@ -128,7 +129,6 @@
 		39B8AEB71FB3543200A583AA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				39B8AEA71FB3540400A583AA /* ViewController.swift */,
 				39B8AEA51FB3540400A583AA /* AppDelegate.swift */,
 				39A58B8A1FE968DB007BD95C /* GameController */,
 				39B8AEBC1FB354FA00A583AA /* CreativityViewController.swift */,
