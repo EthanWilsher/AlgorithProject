@@ -17,6 +17,7 @@ public class InternetDetailViewController: UIViewController
     
     
     
+    
     var detailAddress : String?
     {
         didSet
@@ -74,7 +75,6 @@ public class InternetDetailViewController: UIViewController
                 currentText.text = "Ethans CSP internet app screen"
             }
         }
-        
         
         
         

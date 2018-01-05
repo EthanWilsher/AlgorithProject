@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		394BFF0B1FD99C6A00C19CD1 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BFF0A1FD99C6A00C19CD1 /* ArtCell.swift */; };
+		397B70191FFFD55B00CD4269 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B70181FFFD55B00CD4269 /* BucketItemCell.swift */; };
 		39934CCA1FC329D300AA842E /* Sinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934CC91FC329D300AA842E /* Sinkable.swift */; };
 		39934CCC1FC32B2500AA842E /* sinkDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934CCB1FC32B2500AA842E /* sinkDebug.swift */; };
 		39981E781FD6EFBA004A87B2 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39981E771FD6EFBA004A87B2 /* DrawingView.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		394BFF0A1FD99C6A00C19CD1 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		397B70181FFFD55B00CD4269 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		39934CC91FC329D300AA842E /* Sinkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sinkable.swift; sourceTree = "<group>"; };
 		39934CCB1FC32B2500AA842E /* sinkDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sinkDebug.swift; sourceTree = "<group>"; };
 		39981E771FD6EFBA004A87B2 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		397B701A1FFFD56F00CD4269 /* DataView */ = {
+			isa = PBXGroup;
+			children = (
+				397B70181FFFD55B00CD4269 /* BucketItemCell.swift */,
+				39B8AEC01FB3553400A583AA /* DataViewController.swift */,
+			);
+			path = DataView;
+			sourceTree = "<group>";
+		};
 		39A58B8A1FE968DB007BD95C /* GameController */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,7 +144,7 @@
 				39A58B8A1FE968DB007BD95C /* GameController */,
 				39B8AEBC1FB354FA00A583AA /* CreativityViewController.swift */,
 				39B8AEBE1FB3551C00A583AA /* AbstractionViewController.swift */,
-				39B8AEC01FB3553400A583AA /* DataViewController.swift */,
+				397B701A1FFFD56F00CD4269 /* DataView */,
 				39B8AEC21FB3554C00A583AA /* AlgorithmViewController.swift */,
 				39B8AEC41FB3556400A583AA /* ProgrammingViewController.swift */,
 				39E56ECF1FCF0003001C442B /* InternetDetailViewController.swift */,
@@ -268,6 +279,7 @@
 				394BFF0B1FD99C6A00C19CD1 /* ArtCell.swift in Sources */,
 				39B8AEA81FB3540400A583AA /* ViewController.swift in Sources */,
 				39CD0CA11FE176C300D351E4 /* Utilities.swift in Sources */,
+				397B70191FFFD55B00CD4269 /* BucketItemCell.swift in Sources */,
 				39B8AEC91FB355AA00A583AA /* ImpactViewController.swift in Sources */,
 				39B8AEC51FB3556400A583AA /* ProgrammingViewController.swift in Sources */,
 				39E56ED01FCF0003001C442B /* InternetDetailViewController.swift in Sources */,

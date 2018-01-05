@@ -31,12 +31,12 @@ public class InternetMasterViewController: UITableViewController
     {
         //TODO: replace with correct links
         addresses = [
-        "https://www.google.com",
-        "https://www.google.com",
-        "https://www.google.com",
-        "https://www.google.com",
-        "https://www.google.com",
-        "https://www.google.com",
+        "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles",
+        "https://ctec.canyonsdistrict.org/",
+        "http://www.canyonsdistrict.org/",
+        "https://twitter.com",
+        "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html",
+        
         ]
         
         if let splitView = splitViewController
@@ -52,6 +52,11 @@ public class InternetMasterViewController: UITableViewController
         super.viewDidLoad()
         setup()
         self.clearsSelectionOnViewWillAppear = false
+    }
+    
+    override public func didReceiveMemoryWarning()
+    {
+        super.didReceiveMemoryWarning()
     }
     
     //MARK:- Table view data source
