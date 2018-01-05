@@ -8,6 +8,6 @@
 
 import UIKit
 
-class DataViewController: NSObject {
+class DataViewController: UITableViewController {
 
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		394BFF0B1FD99C6A00C19CD1 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BFF0A1FD99C6A00C19CD1 /* ArtCell.swift */; };
 		397B70191FFFD55B00CD4269 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B70181FFFD55B00CD4269 /* BucketItemCell.swift */; };
+		397B701C1FFFD6E100CD4269 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B701B1FFFD6E100CD4269 /* BucketItem.swift */; };
 		39934CCA1FC329D300AA842E /* Sinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934CC91FC329D300AA842E /* Sinkable.swift */; };
 		39934CCC1FC32B2500AA842E /* sinkDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934CCB1FC32B2500AA842E /* sinkDebug.swift */; };
 		39981E781FD6EFBA004A87B2 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39981E771FD6EFBA004A87B2 /* DrawingView.swift */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		394BFF0A1FD99C6A00C19CD1 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		397B70181FFFD55B00CD4269 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		397B701B1FFFD6E100CD4269 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		397B701D1FFFD73D00CD4269 /* bucket.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = bucket.csv; path = ../../../../../Downloads/bucket.csv; sourceTree = "<group>"; };
 		39934CC91FC329D300AA842E /* Sinkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sinkable.swift; sourceTree = "<group>"; };
 		39934CCB1FC32B2500AA842E /* sinkDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sinkDebug.swift; sourceTree = "<group>"; };
 		39981E771FD6EFBA004A87B2 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
@@ -172,6 +175,7 @@
 				39B8AEAC1FB3540400A583AA /* Assets.xcassets */,
 				39B8AEB11FB3540400A583AA /* Info.plist */,
 				39CD0CA01FE176C300D351E4 /* Utilities.swift */,
+				397B701D1FFFD73D00CD4269 /* bucket.csv */,
 				39CD0C9A1FE174D800D351E4 /* Sounds */,
 			);
 			path = Resources;
@@ -182,6 +186,7 @@
 			children = (
 				39934CC91FC329D300AA842E /* Sinkable.swift */,
 				39934CCB1FC32B2500AA842E /* sinkDebug.swift */,
+				397B701B1FFFD6E100CD4269 /* BucketItem.swift */,
 				39CD0CB01FE177AE00D351E4 /* Invader.swift */,
 				39CD0CB11FE177AE00D351E4 /* InvaderLaser.swift */,
 				39CD0CB21FE177AE00D351E4 /* Player.swift */,
@@ -277,6 +282,7 @@
 				39CD0CBB1FE181F400D351E4 /* StartScene.swift in Sources */,
 				39CD0CB51FE177AE00D351E4 /* Invader.swift in Sources */,
 				394BFF0B1FD99C6A00C19CD1 /* ArtCell.swift in Sources */,
+				397B701C1FFFD6E100CD4269 /* BucketItem.swift in Sources */,
 				39B8AEA81FB3540400A583AA /* ViewController.swift in Sources */,
 				39CD0CA11FE176C300D351E4 /* Utilities.swift in Sources */,
 				397B70191FFFD55B00CD4269 /* BucketItemCell.swift in Sources */,
