@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		394BFF0B1FD99C6A00C19CD1 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BFF0A1FD99C6A00C19CD1 /* ArtCell.swift */; };
+		39731AF0200527DA00005E61 /* InternetMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39731AEF200527DA00005E61 /* InternetMasterTableViewController.swift */; };
 		397B70191FFFD55B00CD4269 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B70181FFFD55B00CD4269 /* BucketItemCell.swift */; };
 		397B701C1FFFD6E100CD4269 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B701B1FFFD6E100CD4269 /* BucketItem.swift */; };
 		39934CCA1FC329D300AA842E /* Sinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934CC91FC329D300AA842E /* Sinkable.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		394BFF0A1FD99C6A00C19CD1 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		39731AEF200527DA00005E61 /* InternetMasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterTableViewController.swift; sourceTree = "<group>"; };
 		397B70181FFFD55B00CD4269 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		397B701B1FFFD6E100CD4269 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		397B701D1FFFD73D00CD4269 /* bucket.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = bucket.csv; path = ../../../../../Downloads/bucket.csv; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				39B8AEC21FB3554C00A583AA /* AlgorithmViewController.swift */,
 				39B8AEC41FB3556400A583AA /* ProgrammingViewController.swift */,
 				39E56ECF1FCF0003001C442B /* InternetDetailViewController.swift */,
+				39731AEF200527DA00005E61 /* InternetMasterTableViewController.swift */,
 				39E56ED11FCF002E001C442B /* InternetMasterViewController.swift */,
 				39B8AEC81FB355AA00A583AA /* ImpactViewController.swift */,
 			);
@@ -295,6 +298,7 @@
 				39B8AEA61FB3540400A583AA /* AppDelegate.swift in Sources */,
 				39B8AEC11FB3553400A583AA /* DataViewController.swift in Sources */,
 				39B8AEBD1FB354FA00A583AA /* CreativityViewController.swift in Sources */,
+				39731AF0200527DA00005E61 /* InternetMasterTableViewController.swift in Sources */,
 				39934CCA1FC329D300AA842E /* Sinkable.swift in Sources */,
 				39CD0CBC1FE181F400D351E4 /* GameScene.swift in Sources */,
 				39CD0CB31FE177AE00D351E4 /* Projectile.swift in Sources */,
