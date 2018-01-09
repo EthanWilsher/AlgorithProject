@@ -15,7 +15,7 @@ class DataViewController: UITableViewController
        return loadBucketListFromFile()
     }()
     
-    private func loadBucketListFromFile() ->[BucketItem]
+    private func loadBucketListFromFile() -> [BucketItem]
     {
         var items = [BucketItem]()
         if let filePath = Bundle.main.url(forResource: "bucket", withExtension: "csv")
@@ -23,15 +23,15 @@ class DataViewController: UITableViewController
             do
             {
                 let input = try String(contentsOf: filePath)
-                let bucketLines = int.components(seperatedBy: "\n")
+                let bucketLines = input.components(separatedBy: "\n")
                 for line in bucketLines
                 {
-                    let item = line.components(seperatedBy: ",")
+                    let item = line.components(separatedBy: ",")
                     items.append(BucketItem(contents: item[0],author: item[1]))
                 }
             }
             catch
-            {
+            { 
                 print("File Load Error")
             }
         }
@@ -45,7 +45,7 @@ class DataViewController: UITableViewController
         return 1
     }
     
-    override public func tableView(_ tableView: UITableView, numberOfRowsInSection secction: Int) -> Int
+    override public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return bucketList.count
     }

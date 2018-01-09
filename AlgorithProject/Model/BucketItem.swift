@@ -6,16 +6,18 @@
 //  Copyright © 2018 Wilsher, Ethan. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class BucketItem: UIView {
+public class BucketItem
+{
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    let itemContents : String
+    let itemAuthor : String
+    
+    init(contents : String, author : String)
+    {
+        itemContents = contents
+        itemAuthor = author
     }
-    */
 
 }

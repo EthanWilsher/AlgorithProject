@@ -22,7 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Ag-ni-qOU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3630" y="-106"/>
+            <point key="canvasLocation" x="3630" y="-200"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -32,32 +32,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgb-ug-Ce9">
-                                <rect key="frame" x="139" y="630" width="115" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Woman Button"/>
-                                <connections>
-                                    <segue destination="hoL-WI-1JV" kind="show" id="sdq-A5-aeB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eO-gu-5tA">
-                                <rect key="frame" x="8" y="592" width="135" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Abstraction View"/>
-                                <connections>
-                                    <segue destination="O5n-wb-GDj" kind="showDetail" id="o2Q-Zd-wXn"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGH-7H-j1U">
-                                <rect key="frame" x="3" y="630" width="140" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Split View button"/>
-                                <connections>
-                                    <segue destination="fyH-y1-WkZ" kind="show" id="l46-Qk-49f"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NUx-7s-OZT" customClass="DrawingView" customModule="AlgorithProject" customModuleProvider="target">
-                                <rect key="frame" x="42" y="0.0" width="281" height="497"/>
+                                <rect key="frame" x="42" y="0.0" width="281" height="278"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -68,27 +44,54 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8w1-MU-9TA">
-                                <rect key="frame" x="293" y="625" width="46" height="30"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="R7h-lg-HBZ">
+                                <rect key="frame" x="16" y="440" width="117" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Game"/>
-                                <connections>
-                                    <segue destination="inJ-1I-OZn" kind="showDetail" id="Hw9-QK-2sL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEA-Sd-MXW">
-                                <rect key="frame" x="244" y="567" width="115" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Collection butt"/>
-                                <connections>
-                                    <segue destination="qNH-fY-f8G" kind="showDetail" id="8sx-dC-0BJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWD-2E-GW4">
-                                <rect key="frame" x="12" y="554" width="126" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="DataView Button"/>
-                            </button>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8w1-MU-9TA">
+                                        <rect key="frame" x="0.0" y="0.0" width="41" height="30"/>
+                                        <state key="normal" title="Game"/>
+                                        <connections>
+                                            <segue destination="inJ-1I-OZn" kind="showDetail" id="Hw9-QK-2sL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgb-ug-Ce9">
+                                        <rect key="frame" x="0.0" y="33" width="102" height="30"/>
+                                        <state key="normal" title="Woman Button"/>
+                                        <connections>
+                                            <segue destination="hoL-WI-1JV" kind="show" id="sdq-A5-aeB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEA-Sd-MXW">
+                                        <rect key="frame" x="0.0" y="66" width="101" height="30"/>
+                                        <state key="normal" title="Collection butt"/>
+                                        <connections>
+                                            <segue destination="qNH-fY-f8G" kind="showDetail" id="8sx-dC-0BJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWD-2E-GW4">
+                                        <rect key="frame" x="0.0" y="99" width="114" height="30"/>
+                                        <state key="normal" title="DataView Button"/>
+                                        <connections>
+                                            <segue destination="udY-Or-Hrc" kind="showDetail" id="00s-eY-Z0Z"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eO-gu-5tA">
+                                        <rect key="frame" x="0.0" y="132" width="117" height="30"/>
+                                        <state key="normal" title="Abstraction View"/>
+                                        <connections>
+                                            <segue destination="O5n-wb-GDj" kind="showDetail" id="o2Q-Zd-wXn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGH-7H-j1U">
+                                        <rect key="frame" x="0.0" y="165" width="117" height="30"/>
+                                        <state key="normal" title="Split View button"/>
+                                        <connections>
+                                            <segue destination="fyH-y1-WkZ" kind="show" id="l46-Qk-49f"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

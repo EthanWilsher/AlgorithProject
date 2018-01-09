@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		394BFF0B1FD99C6A00C19CD1 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BFF0A1FD99C6A00C19CD1 /* ArtCell.swift */; };
-		39731AEE20050D1A00005E61 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39731AED20050D1A00005E61 /* BucketItem.swift */; };
 		397B70191FFFD55B00CD4269 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B70181FFFD55B00CD4269 /* BucketItemCell.swift */; };
 		397B701C1FFFD6E100CD4269 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B701B1FFFD6E100CD4269 /* BucketItem.swift */; };
 		39934CCA1FC329D300AA842E /* Sinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934CC91FC329D300AA842E /* Sinkable.swift */; };
@@ -44,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		394BFF0A1FD99C6A00C19CD1 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
-		39731AED20050D1A00005E61 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		397B70181FFFD55B00CD4269 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		397B701B1FFFD6E100CD4269 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		397B701D1FFFD73D00CD4269 /* bucket.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = bucket.csv; path = ../../../../../Downloads/bucket.csv; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				397B70181FFFD55B00CD4269 /* BucketItemCell.swift */,
-				39731AED20050D1A00005E61 /* BucketItem.swift */,
 				39B8AEC01FB3553400A583AA /* DataViewController.swift */,
 			);
 			path = DataView;
@@ -284,7 +281,6 @@
 				39934CCC1FC32B2500AA842E /* sinkDebug.swift in Sources */,
 				39CD0CBB1FE181F400D351E4 /* StartScene.swift in Sources */,
 				39CD0CB51FE177AE00D351E4 /* Invader.swift in Sources */,
-				39731AEE20050D1A00005E61 /* BucketItem.swift in Sources */,
 				394BFF0B1FD99C6A00C19CD1 /* ArtCell.swift in Sources */,
 				397B701C1FFFD6E100CD4269 /* BucketItem.swift in Sources */,
 				39B8AEA81FB3540400A583AA /* ViewController.swift in Sources */,

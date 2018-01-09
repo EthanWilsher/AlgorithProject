@@ -73,8 +73,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             let invader = node as! SKSpriteNode
             let invaderHalfWidth = invader.size.width / 2
             invader.position.x -= CGFloat(self.invaderSpeed)
-            if(invader.position.x > self.rightBounds - invaderHalfWidth || invader.position.x <
-            self.leftBounds + invaderHalfWidth)
+            if(invader.position.x > self.rightBounds - invaderHalfWidth || invader.position.x < self.leftBounds + invaderHalfWidth)
             {
                 changeDirection = true
             }
@@ -239,7 +238,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         if((firstBody.categoryBitMask & CollisionCategories.Invader != 0) &&
             (secondBody.categoryBitMask & CollisionCategories.PlayerBullet != 0))
         {
-            print("Invader and Player Bullet Contact")
+            print("Invader and Player Collision Contact")
         }
         
         if ((firstBody.categoryBitMask & CollisionCategories.Player != 0) &&
