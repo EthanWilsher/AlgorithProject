@@ -15,11 +15,6 @@ class InternetMasterTableViewController: UITableViewController
         super.viewDidLoad()
     }
     
-    override func didRecieveMemoryWarning()
-    {
-        super.didRecieveMemoryWarning()
-    }
-    
     override func numberOfSections(in tableView: UITableView) -> Int
     {
         return 0
